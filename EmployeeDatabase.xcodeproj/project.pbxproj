@@ -76,13 +76,11 @@
 		252D4CAA2BCF99ED002E0863 /* EmployeeDatabase */ = {
 			isa = PBXGroup;
 			children = (
-				252D4CAB2BCF99ED002E0863 /* AppDelegate.swift */,
-				252D4CAD2BCF99ED002E0863 /* SceneDelegate.swift */,
-				25579D4A2BCFA48500214BB6 /* IbInspectables.swift */,
-				257A3A512BCFF821006257DE /* CoreData */,
+				5D6635152DD9965300C96C85 /* Delegates */,
+				257A3A512BCFF821006257DE /* Model */,
 				257A3A502BCFF80E006257DE /* Views */,
 				257A3A522BCFF870006257DE /* Controller */,
-				252D4CB72BCF99EF002E0863 /* Assets.xcassets */,
+				5D6635142DD9963B00C96C85 /* Resources */,
 				252D4CBC2BCF99EF002E0863 /* Info.plist */,
 				252D4CB42BCF99ED002E0863 /* EmployeeDatabase.xcdatamodeld */,
 			);
@@ -92,30 +90,29 @@
 		257A3A502BCFF80E006257DE /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				252D4CB12BCF99ED002E0863 /* Main.storyboard */,
 				252D4CB92BCF99EF002E0863 /* LaunchScreen.storyboard */,
+				252D4CB12BCF99ED002E0863 /* Main.storyboard */,
 			);
 			path = Views;
 			sourceTree = "<group>";
 		};
-		257A3A512BCFF821006257DE /* CoreData */ = {
+		257A3A512BCFF821006257DE /* Model */ = {
 			isa = PBXGroup;
 			children = (
 				257A3A4A2BCFD8BE006257DE /* Employee+CoreDataClass.swift */,
 				257A3A4B2BCFD8BE006257DE /* Employee+CoreDataProperties.swift */,
+				254E2D282BCF9F7F00EE858E /* DBLayer.swift */,
 			);
-			path = CoreData;
+			path = Model;
 			sourceTree = "<group>";
 		};
 		257A3A522BCFF870006257DE /* Controller */ = {
 			isa = PBXGroup;
 			children = (
 				252D4CAF2BCF99ED002E0863 /* ViewController.swift */,
-				25579D4C2BCFA96F00214BB6 /* EmployeesDataViewController.swift */,
-				257A3A4E2BCFF7B3006257DE /* EmployeesDataViewController + TableView.swift */,
-				25579D4E2BCFA9CF00214BB6 /* FullDetailsOfEmployeeViewController.swift */,
+				5D6635122DD995F200C96C85 /* EmployeeList */,
+				5D6635132DD995FC00C96C85 /* EmployeeDetails */,
 				257A3A532BCFF87C006257DE /* TableViewCell */,
-				254E2D282BCF9F7F00EE858E /* DBLayer.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -127,6 +124,41 @@
 				25579D512BCFAE0B00214BB6 /* NamesTableCell.xib */,
 			);
 			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		5D6635122DD995F200C96C85 /* EmployeeList */ = {
+			isa = PBXGroup;
+			children = (
+				25579D4C2BCFA96F00214BB6 /* EmployeesDataViewController.swift */,
+				257A3A4E2BCFF7B3006257DE /* EmployeesDataViewController + TableView.swift */,
+			);
+			path = EmployeeList;
+			sourceTree = "<group>";
+		};
+		5D6635132DD995FC00C96C85 /* EmployeeDetails */ = {
+			isa = PBXGroup;
+			children = (
+				25579D4E2BCFA9CF00214BB6 /* FullDetailsOfEmployeeViewController.swift */,
+			);
+			path = EmployeeDetails;
+			sourceTree = "<group>";
+		};
+		5D6635142DD9963B00C96C85 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				25579D4A2BCFA48500214BB6 /* IbInspectables.swift */,
+				252D4CB72BCF99EF002E0863 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5D6635152DD9965300C96C85 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				252D4CAB2BCF99ED002E0863 /* AppDelegate.swift */,
+				252D4CAD2BCF99ED002E0863 /* SceneDelegate.swift */,
+			);
+			path = Delegates;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

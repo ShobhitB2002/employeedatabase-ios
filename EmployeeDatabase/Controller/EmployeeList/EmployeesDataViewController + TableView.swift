@@ -47,7 +47,6 @@ extension EmployeesDataViewController: UITextFieldDelegate {
         if let text = textField.text,
            let textRange = Range(range, in: text) {
             let updatedText = text.replacingCharacters(in: textRange, with: string)
-            //let url = "https://api-generator.retool.com/IxiSqf/data?First Name=value"
             filterEmployees(withSearchText: updatedText)
         }
         return true
