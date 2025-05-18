@@ -22,7 +22,8 @@ Getting Started
 Screenshots:
 
 🔹 Launch Screen
-![Launch](Simulator%20Screenshot%20-%20iPhone%2015%20Pro%20Max%20-%202025-05-18%20at%2009.52.43.png)
+![Launch]![Simulator Screenshot - iPhone 15 Pro Max - 2025-05-18 at 09 52 43](https://github.com/user-attachments/assets/f4e01aa7-5785-44de-b240-022f685104d8)
+
 
 Author:
 Shobhit
