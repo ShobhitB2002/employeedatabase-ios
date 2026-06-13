@@ -1,36 +1,26 @@
-EmployeeDatabase-iOS
+# Employee Database iOS
 
-An iOS app that manages employee data using Core Data.  
-Built in MVC.
+An iOS app to manage employee records using Core Data for persistent local storage.
 
-Features
-- Add, edit, and delete customer data
-- Core Data integration
-- Clean Architecture : MVC
+Built as a freelance project delivered to a Canadian client.
 
-Technologies
-- Swift
-- UIKit
-- Core Data
-- MVC
+## Features
 
-Screenshots:
-🔹 Launch Screen
-![LaunchScreen](https://github.com/user-attachments/assets/902d2ee0-7dc3-4eab-97b2-c9e22aa54430)
+- Add, edit, and delete employee records
+- Persistent storage via Core Data
+- Search functionality
+- Clean MVC architecture
 
-🔹 Employee List
-![EmployeeList](https://github.com/user-attachments/assets/88ca2f23-b5e2-495d-8395-518c50a5b028)
+## Tech
 
-🔹 Search Functionality
-![SearchFunctionality](https://github.com/user-attachments/assets/c6143514-d52d-4c6f-afd1-c31056cda559)
+Swift · UIKit · Core Data · MVC · Xcode
 
-🔹 Detail View
-![DetailView](https://github.com/user-attachments/assets/32eff363-1db9-4246-a2aa-a1ee089fc7c5)
+## Getting Started
 
-Getting Started
-1. Clone this repo
-2. Open `EmployeeDatabase.xcodeproj`
-3. Run the app
+1. Clone the repo
+2. Open employeedatabase-ios.xcodeproj
+3. Run on simulator or device (iOS 15+)
 
-Author:
-Shobhit
+## Author
+
+Shobhit Bansal — LinkedIn · Portfolio
